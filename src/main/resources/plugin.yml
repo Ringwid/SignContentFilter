@@ -1,0 +1,13 @@
+name: SignContentFilter
+main: com.github.ringwid.signcontentfilter.SignContentFilter
+version: 1.0
+author: Ringwid
+permissions:
+  signcontentfilter.*:
+    description: Allows player ro use banned words.
+    default: false
+    children:
+      signcontentfilter.pass: true
+  signcontentfilter.pass:
+    description: Allows player ro use banned words.
+    default: false

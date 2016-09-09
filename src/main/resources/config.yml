@@ -1,0 +1,5 @@
+# The words banned.
+bannedWords:
+- "Fuck"
+
+bannedMessage: "&4Your sign contains banned words."
